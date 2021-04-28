@@ -7,13 +7,13 @@ Runs WordPress, MariaDB and phpMyAdmin
 
 Built with Dockerfile </p></div>
 <div style="background-color:white;">
-<h3>Use </h3>
+Use
 
-<div>  docker build . --tag $tag </div>
+<h6> docker build . --tag $tag </h6>
 
 to build a container and
 
-  docker run $tag
+<h6>  docker run $tag </h6>
 
 in order to run a container
 
