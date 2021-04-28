@@ -1,6 +1,16 @@
+<style>
+  .code {
+  font-family: "Lucida Console", "Courier New", monospace; 
+  font-weight: light;
+  }
+  .text {
+  background-color: gray;
+  }
+</style>
+
 <h1> ft_server </h1>
 
-<div><p> LEMP-server inside a Docker container
+<div class="text"><p> LEMP-server inside a Docker container
 
 Runs WordPress, MariaDB and phpMyAdmin
 
@@ -8,7 +18,7 @@ Built with Dockerfile </p></div>
 <div>
 <h3>Use </h3>
 
-<h6>  docker build . --tag $tag </h6>
+<div class="code">  docker build . --tag $tag </div>
 
 to build a container and
 
