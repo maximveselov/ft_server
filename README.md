@@ -19,7 +19,7 @@ in order to run a container
 
 To test workability in a domestic environment, expose ports with -p flag and connect to localhost via HTTP/HTTPS
 
- <h6> docker run **-p 80:80** $tag </h6>
+ <h6> docker run -p 80:80 $tag </h6>
   
 </div>
 
